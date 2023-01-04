@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Raleway:wght@300&family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Poppins:wght@300&family=Raleway:wght@300&family=Rubik+Vinyl&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
 }
+
 .warning {
 	display: flex;
 	width: 100%;
@@ -52,4 +56,236 @@
 	align-items: center;
 	width: 30%;
 	gap: 10px;
+}
+
+.duo-motiv {
+	background-image: url('https://i.ibb.co/PZHJMS0/carousel.png');
+	background-position: 50%;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	height: 400px;
+	justify-content: center;
+}
+.frase-motiv {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 40%;
+	height: 50%;
+}
+.frase-motiv h2 {
+	font-family: 'Cormorant', serif;
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+.frase-motiv h5 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 26px;
+}
+.boton-motiv {
+	display: flex;
+	width: 25%;
+	height: 30px;
+	text-align: center;
+	justify-content: center;
+	background-color: #ff8126;
+	color: white;
+	border: none;
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+.boton-motiv:hover {
+	background-color: white;
+	border: #ff8126;
+	color: #ff8126;
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	cursor: pointer;
+}
+.ofertas {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 60px;
+}
+.img-offers {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+.offers {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	background-color: #f7f5f0;
+}
+.ofertas h3 {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-family: 'Cormorant', serif;
+	font-size: 40px;
+	line-height: 48.44px;
+}
+.palabra-oferta {
+	font-family: 'Cormorant', serif;
+	font-size: 40px;
+	color: #ff8126;
+}
+.precio {
+	color: #ff8126;
+	font-size: 24px;
+}
+.rebaja {
+	color: black;
+	text-decoration: line-through;
+	font-size: 18px;
+}
+.shop {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ff8126;
+	color: white;
+	border: none;
+	width: 70%;
+	height: 40px;
+	margin-left: 30px;
+	border-radius: 5px;
+}
+.shop:hover {
+	background-color: white;
+	color: #ff8126;
+	border: #ff8126;
+	cursor: pointer;
+}
+.premium-bakery {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 80px;
+}
+.premium-bakery h3 {
+	flex-direction: column;
+	font-size: 40px;
+	line-height: 48.44px;
+	font-family: 'Cormorant', serif;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.explicaciones {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+.conteins-premium {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	width: 15%;
+	gap: 15px;
+}
+.conteins-premium h6 {
+	font-family: 'Cormorant', serif;
+	font-size: 25px;
+	font-weight: bold;
+}
+.tu-comida {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	gap: 50px;
+}
+.img-uvas {
+	width: 570px;
+	height: 570px;
+}
+.escrito {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 30px;
+	height: 100%;
+	width: 25%;
+}
+.escrito h3 {
+	font-size: 40px;
+	line-height: 48.44px;
+	font-family: 'Cormorant', serif;
+	font-weight: bold;
+}
+.escrito h5 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-size: medium;
+}
+.escrito li {
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	list-style-image: url(./imagenes/check.png);
+}
+.boton-descubre {
+	background-color: #ff8126;
+	color: white;
+	width: 270px;
+	height: 45px;
+	border: none;
+	border-radius: 5px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	font-size: medium;
+}
+.boton-descubre:hover {
+	background-color: white;
+	color: #ff8126;
+	cursor: pointer;
+}
+.publi {
+	background-image: url(./imagenes/comidas.png);
+	background-color: #6090c3;
+	width: 100%;
+	height: 395px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 40px;
+}
+.publi h3 {
+	font-size: 40px;
+	line-height: 48.44px;
+	font-family: 'Cormorant', serif;
+	font-weight: bold;
+	color: white;
+}
+.botoncito-logo {
+	background-color: #ff8126;
+	border: none;
+	border-radius: 5px;
+	width: 330px;
+	height: 45px;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	font-size: medium;
+	font-weight: 500;
+}
+.botoncito-logo:hover {
+	background-color: white;
+	border: #ff8126;
+	color: #ff8126;
+	cursor: pointer;
 }
